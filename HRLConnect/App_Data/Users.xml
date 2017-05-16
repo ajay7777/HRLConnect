@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+ <Templates>
+     <Template name="user">
+          <groups>
+              <Group>User</Group>
+          </groups>
+      </Template>
+      
+      <Template name="admin">
+         <groups>
+            <Group>Admin</Group>
+         </groups>
+     </Template>
+                                             
+     <Template name="activeEmployee" templates="user">
+         <personnelNumber>${peopleKey}</personnelNumber>
+         <enterpriseId>${enterpriseId}</enterpriseId>
+         <displayName>${lastName}, ${firstName}</displayName>
+         <sapUserId>${peopleKey}</sapUserId>
+         <emailAddress>${firstName}.${lastName}@accenture.com</emailAddress>
+     </Template>
+      
+         <Users>
+           <User name="ADTestID1101" password="Rs5MtY42tghBRT7FD">
+             <Identity templates="activeEmployee;admin">
+               <enterpriseId>ADTestID1101</enterpriseId>
+               <peopleKey>9001141</peopleKey>
+               <firstName>ADTestID1101</firstName>
+               <lastName>ADTestID</lastName>
+             </Identity>
+           </User>
+           <User name="adtestid11" password="Rs5MtY42tghBRT7FD">
+             <Identity templates="activeEmployee;admin">
+               <enterpriseId>adtestid11</enterpriseId>
+               <peopleKey>9000051</peopleKey>
+               <firstName>adtestid11</firstName>
+               <lastName>ADTestID</lastName>
+             </Identity>
+           </User>
+           <User name="adtestid15" password="Rs5MtY42tghBRT7FD">
+             <Identity templates="activeEmployee;admin">
+               <enterpriseId>adtestid15</enterpriseId>
+               <peopleKey>9000892</peopleKey>
+               <firstName>adtestid15</firstName>
+               <lastName>ADTestID</lastName>
+             </Identity>
+           </User>           
+           <User name="ADTESTID701" password="Rs5MtY42tghBRT7FD">
+             <Identity templates="activeEmployee;admin">
+               <enterpriseId>ADTESTID701</enterpriseId>
+               <peopleKey>9000741</peopleKey>
+               <firstName>ADTESTID701</firstName>
+               <lastName>ADTestID</lastName>
+             </Identity>
+           </User>
+           <User name="ADTESTID702" password="Rs5MtY42tghBRT7FD">
+             <Identity templates="activeEmployee;admin">
+               <enterpriseId>ADTESTID702</enterpriseId>
+               <peopleKey>9000742</peopleKey>
+               <firstName>ADTESTID702</firstName>
+               <lastName>ADTestID</lastName>
+             </Identity>
+           </User>
+           <User name="ADTESTID703" password="Rs5MtY42tghBRT7FD">
+             <Identity templates="activeEmployee;admin">
+               <enterpriseId>ADTESTID703</enterpriseId>
+               <peopleKey>9000743</peopleKey>
+               <firstName>ADTESTID703</firstName>
+               <lastName>ADTestID</lastName>
+             </Identity>
+           </User>
+           <User name="ADTESTID704" password="Rs5MtY42tghBRT7FD">
+             <Identity templates="activeEmployee;admin">
+               <enterpriseId>ADTESTID704</enterpriseId>
+               <peopleKey>9000744</peopleKey>
+               <firstName>ADTESTID704</firstName>
+               <lastName>ADTestID</lastName>
+             </Identity>
+           </User>           
+           <User name="ADTESTID707" password="Rs5MtY42tghBRT7FD">
+             <Identity templates="activeEmployee;admin">
+               <enterpriseId>ADTESTID707</enterpriseId>
+               <peopleKey>9000747</peopleKey>
+               <firstName>ADTESTID707</firstName>
+               <lastName>ADTestID</lastName>
+             </Identity>
+           </User>           
+           <User name="ADTESTID710" password="Rs5MtY42tghBRT7FD">
+             <Identity templates="activeEmployee;admin">
+               <enterpriseId>ADTESTID710</enterpriseId>
+               <peopleKey>9000750</peopleKey>
+               <firstName>ADTESTID710</firstName>
+               <lastName>ADTestID</lastName>
+             </Identity>
+           </User>
+           <User name="ADTESTID711" password="Rs5MtY42tghBRT7FD">
+             <Identity templates="activeEmployee;admin">
+               <enterpriseId>ADTESTID711</enterpriseId>
+               <peopleKey>9000751</peopleKey>
+               <firstName>ADTESTID711</firstName>
+               <lastName>ADTestID</lastName>
+             </Identity>
+           </User>
+           <User name="ADTESTID712" password="Rs5MtY42tghBRT7FD">
+             <Identity templates="activeEmployee;admin">
+               <enterpriseId>ADTESTID712</enterpriseId>
+               <peopleKey>9000752</peopleKey>
+               <firstName>ADTESTID712</firstName>
+               <lastName>ADTestID</lastName>
+             </Identity>
+           </User>           
+           <User name="ADTESTID713" password="Rs5MtY42tghBRT7FD">
+             <Identity templates="activeEmployee;admin">
+               <enterpriseId>ADTESTID713</enterpriseId>
+               <peopleKey>9000753</peopleKey>
+               <firstName>ADTESTID713</firstName>
+               <lastName>ADTestID</lastName>
+             </Identity>
+           </User>
+           <User name="ADTESTID714" password="Rs5MtY42tghBRT7FD">
+             <Identity templates="activeEmployee;admin">
+               <enterpriseId>ADTESTID714</enterpriseId>
+               <peopleKey>9000754</peopleKey>
+               <firstName>ADTESTID714</firstName>
+               <lastName>ADTestID</lastName>
+             </Identity>
+           </User>
+           <User name="ADTESTID123" password="Rs5MtY42tghBRT7FD">
+             <Identity templates="activeEmployee;admin">
+               <enterpriseId>ADTESTID123</enterpriseId>
+               <peopleKey>9000754</peopleKey>
+               <firstName>ADTESTID714</firstName>
+               <lastName>ADTestID</lastName>
+             </Identity>
+           </User>
+           <User name="piyush.a.khanna" password="Rs5MtY42tghBRT7FD">
+             <Identity templates="activeEmployee;admin">
+               <enterpriseId>piyush.a.khanna</enterpriseId>
+               <peopleKey>9001141</peopleKey>
+               <firstName>Piyush</firstName>
+               <lastName>Khanna</lastName>
+             </Identity>
+           </User>
+         </Users>
+ </Templates>
